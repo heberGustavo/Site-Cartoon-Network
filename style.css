@@ -284,23 +284,13 @@ body{
     display: flex;
 }
 
-/*Abrir Modal*/
-.modal{
-    width: 200px;
-    position: fixed;
-    top: 1%;
-    left: 30%;
+/*Modal*/
+.modal-lateral{
+    background: #ec0080;
     color: #ffffff;
-    padding: 10px;
-    background: #4c4c4c;
-    opacity: 0;
 }
 
-.modal:target{
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.fechar{
-    text-decoration: none;
+.modal-rolagem{
+    background: #ffea00;
+    color: #ffffff;
 }
